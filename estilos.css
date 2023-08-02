@@ -10,7 +10,6 @@
     background:linear-gradient(to right, rgba(156, 150, 150, 0.343), rgba(0, 0, 0, 0.475)) 
     ,url(img/green-gd5314c8be_1280.jpg); 
     background-size: cover;
-    /* background-position: center; */
     display: flex;
     align-items: center;
     justify-content: center;

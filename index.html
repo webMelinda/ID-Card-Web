@@ -6,7 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Inconsolata&display=swap" rel="stylesheet">
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>ID Card</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -17,21 +20,23 @@
 <body>
     <div class="container">
         <div class="perfil">
-            <img src="img/foto_perfil.jpg" class="foto-perfil">
-            <h3>Melinda Pinto</h3>
+            <img src="img/foto_perfil.jpg" class="foto-perfil animate__animated animate__fadeInDown">
+            <h3 class="animate__animated animate__fadeInDown">Melinda Pinto</h3>
             <div class="social-media">
                 <a href="https://www.facebook.com/melinda.pinto.5/" class="redes" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="https://www.instagram.com/melinda.pinto/" class="redes" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/melinda-pinto-ar22/" class="redes" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
                 <a href="https://github.com/webMelinda"class="redes" target="_blank" ><i class="fa-brands fa-square-github"></i></a>           
             </div>
-            <button type="button" class="button">Más sobre mí</button>
+            <button type="button" class="button animate__animated animate__pulse">Más sobre mí</button>
             <div class="about">
                 <p>Soy profesora de música y desde el año pasado, en mis tiempos libres, estoy aprendiendo programación.</p>
                 <br>
-                <p><i class="fa-solid fa-location-dot"></i> Rafaela, Santa Fe</p>
-                <p><i class="fa-solid fa-at"></i> melindapinto@gmail.com</p>
-            
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> <b>Rafaela, Santa Fe</b> </li>
+                    <li><i class="fa-solid fa-at"></i> <b>melindapinto@gmail.com</b> </li>
+                </ul>
+                
             </div>
         </div>
     </div>

@@ -19,7 +19,7 @@
 /* PERFIL */
 .perfil{
     width: 40%;
-    background-color: #ff705f;
+    background-color: #eb796c;
     text-align: center;
     padding: 40px 90px;
     color: #913f33;
@@ -51,7 +51,7 @@
 .foto-perfil{
     width: 150px;
     border-radius: 50%;
-    background-color: #ffaa67;
+    background-color: #ff8173;
     padding: 5px;
     margin-top: 40px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.566);
@@ -86,12 +86,19 @@
     background-color: #ffdfab;
     color: #913f33;
     font-family: 'Inconsolata', monospace;
-    padding: 60px 0;
+    padding: 60px 20px;
     margin-right: -90px;
     margin-left: -90px;
     margin-bottom: -40px;
     border-radius: 20px;
     margin-top: -10px;
+    text-align: justify;
+}
+
+.about li{
+    list-style: none;
+    text-align: center;
+    padding: 2px;
 }
 
 .button{
